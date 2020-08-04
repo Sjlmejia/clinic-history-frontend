@@ -1,0 +1,10 @@
+<h1>Lista de Pacientes</h1>
+<div class="container-list">
+  <mat-card class="card" *ngFor="let item of list">
+    <mat-card-title>Descripcion del Paciente</mat-card-title>
+    <mat-card-content class="content">
+      <span>Nombre: {{item.name}}</span>
+      <span>Edad: {{item.age}}</span>
+    </mat-card-content>
+  </mat-card>
+</div>
